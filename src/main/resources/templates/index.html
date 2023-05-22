@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello word spring boot</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+<h1 th:text = "${msg}"></h1>
+<img th:src="@{/img/img.png}">
+<h1 th:text = "${key_2}"></h1>
+<p> Get your link <a href="/greeting"> here </a> </p>
+</body>
+</html>
